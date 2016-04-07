@@ -1,6 +1,9 @@
 <?php
 
+include "AbstractObject.php";
 include "Person.php";
+
+include "AbstractManager.php";
 include "PersonManager.php";
 
 

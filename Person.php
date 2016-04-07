@@ -3,9 +3,8 @@
 /*
  * @author Dmytro Nekrasov <nekrasov.dmytro@gmail.com>
  * */
-class Person
+class Person extends AbstractObject
 {
-    protected $id;
     protected $name;
 
     /*
@@ -31,11 +30,6 @@ class Person
     public function getBirthday()
     {
         return $this->birthday;
-    }
-
-    public function getId()
-    {
-        return $this->id;
     }
 
     public function __toString()
